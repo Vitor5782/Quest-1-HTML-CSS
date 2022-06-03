@@ -1,0 +1,27 @@
+html{
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    display:grid;
+    justify-content: center;
+}
+.tabela{
+    justify-content: space-between;
+    margin: 1.2rem;
+    padding: .3rem;
+    font-size: 20px;
+}
+.titulo-moda{
+    background-color: #BB86FC;
+}
+.titulo-casa{
+    background-color:#00C4B4;
+}
+.produto-moda, .produto-casa{
+    background-color: #424250;
+}
+.titulo-casa, .titulo-moda, .produto-moda, .produto-casa{
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
